@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://aframe.io/releases/0.6.0/aframe.min.js"></script>
+    </head>
+    <body>
+        <a-scene background="color: black">   
+            <a-entity position="0 0 15">
+                <a-camera></a-camera>
+            </a-entity>
+            <a-sky color="white"></a-sky>
+            
+            <a-plane
+                position="0 -7 -8" 
+                rotation="-90 0 0" 
+                color="#D0B8A8"
+                width="50" 
+                length="10"
+                height="10"
+             ></a-plane>
+            <a-box
+                position="0 5 -8" 
+                rotation="0 0 0" 
+                color="#645CBB"
+                width="15" 
+                height="13"
+            >
+            </a-box>
+            <a-plane
+                position="-5 -4 -8" 
+                rotation="0 0 0" 
+                height="5"
+                color="#917FB3"
+            ></a-plane>
+            <a-plane
+                position="5 -4 -8" 
+                rotation="0 0 0" 
+                height="5"
+                color="#917FB3"
+            ></a-plane>
+            <a-plane
+                position="-9 3 -8" 
+                rotation="-50 0 0" 
+                height="8"
+                color="#9384D1"
+            ></a-plane>
+            <a-plane
+                position="9 3 -8" 
+                rotation="-50 0 0" 
+                height="8"
+                color="#9384D1"
+            ></a-plane>
+            <a-sphere
+                position="0 13.5 -8" 
+                rotation="0 0 0" 
+                radius="4"
+                color="#9384D1"
+            ></a-sphere>
+            <a-plane
+                position="0 17 -8" 
+                rotation="0 0 0" 
+                height="5"
+                length="2"
+                color="#EDC6B1"
+            ></a-plane>
+            <a-sphere
+            position="0 20 -8" 
+            rotation="0 0 0" 
+            radius="0.8"
+            color="#9384D1"
+        ></a-sphere>
+        </a-scene>
+    </body>
+</html>
